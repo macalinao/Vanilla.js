@@ -14,18 +14,6 @@ builds:
     private: true
 
 packages:
-  snesjs:
+  vanilla:
     files:
-    - SNESJS
-    - Constants
-    # CPU
-    - cpu/CPU
-    - cpu/ALU
-    - cpu/CPUOPS
-    - cpu/MMIO
-    - cpu/Registers
-    - cpu/Status
-    - cpu/Timing
-    # Util
-    - util/Bits
-    - util/MiscUtils
+    - Vanilla
