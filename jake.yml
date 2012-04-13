@@ -17,3 +17,6 @@ packages:
   vanilla:
     files:
     - Vanilla
+    # VanillaMaterials
+    - VanillaMaterials
+    - Tool
