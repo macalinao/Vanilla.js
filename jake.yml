@@ -18,5 +18,5 @@ packages:
     files:
     - Vanilla
     # VanillaMaterials
-    - VanillaMaterials
-    - Tool
+    - material/VanillaMaterials
+    - material/Tool
