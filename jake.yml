@@ -17,6 +17,9 @@ packages:
   vanilla:
     files:
     - Vanilla
-    # VanillaMaterials
-    - material/VanillaMaterials
-    - material/Tool
+  vanilla-materials:
+    directory: material
+    files:
+    - VanillaMaterials
+    - Armor
+    - Tool

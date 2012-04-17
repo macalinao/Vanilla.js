@@ -3,4 +3,6 @@ mm.defineMod("VanillaMaterials", {
     author: "AlbireoX",
     revision: 1
 }, function(mod) {
+    mod.addArmor("")
+
 });
