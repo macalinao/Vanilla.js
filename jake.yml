@@ -23,6 +23,7 @@ packages:
     - VanillaMaterials
     - Armor
     - Food
+    - Liquid
     - RangedWeapon
     - Tool
     - Weapon
