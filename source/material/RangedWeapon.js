@@ -3,14 +3,16 @@ vanillaMaterials.defineFactory("weapon", {
         name: null,
         vanillaId: 300,
         durability: 0,
-        damage: 0
+        damage: 0,
+        rangedDamage: 0
     },
 
     methods: {}
 }, function(part) {
-    part.createTool("weapon", {
+    part.createWeapon("weapon", {
         name: part.name,
         vanillaId: part.vanillaId,
-        durability: part.durability
+        durability: part.durability,
+        damage: part.damage
     })
 });
