@@ -22,4 +22,6 @@ packages:
     files:
     - VanillaMaterials
     - Armor
+    - Food
     - Tool
+    - Weapon

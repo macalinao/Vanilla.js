@@ -128,6 +128,23 @@ vanillaMaterials.defineFactory("Armor", {
 });
 
 
+vanillaMaterials.defineFactory("food", {
+    properties: {
+        name: null,
+        vanillaId: 300,
+        effectType: "health",
+        amount: 0
+    },
+
+    methods: {}
+}, function(part) {
+    part.createItem("food", {
+        name: part.name,
+        vanillaId: part.vanillaId
+    });
+});
+
+
 vanillaMaterials.defineFactory("tool", {
     properties: {
         name: null,
@@ -155,4 +172,15 @@ vanillaMaterials.defineFactory("tool", {
     }, function(item) {
         //TODO add durability etc.
     });
+});
+
+
+vanillaMaterials.defineFactory("weapon", {
+    properties: {
+        damage: 0
+    },
+
+    methods: {}
+}, function(part) {
+
 });

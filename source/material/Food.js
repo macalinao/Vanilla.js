@@ -1,4 +1,4 @@
-vanillaMaterials.defineFactory("Food", {
+vanillaMaterials.defineFactory("food", {
     properties: {
         name: null,
         vanillaId: 300,
