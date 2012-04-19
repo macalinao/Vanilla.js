@@ -1,11 +1,10 @@
-mm.definePartType("Armor", {
-    description: "Armor item",
-    author: "AlbireoX",
-    revision: 1
-}, {
-    protection: 0
-}, {
-    //No methods
+vanillaMaterials.defineFactory("Armor", {
+    properties: {
+        name: null,
+        vanillaId: 300,
+        protection: 0
+    },
+    methods: {}
 }, function(part) {
-    //Nothing to initialize yet
+    //We don't know
 });
