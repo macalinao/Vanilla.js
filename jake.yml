@@ -20,7 +20,6 @@ packages:
   vanilla-materials:
     directory: materials
     files:
-    - VanillaMaterials
     - Armor
     - Food
     - Liquid
