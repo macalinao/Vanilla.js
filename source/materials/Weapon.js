@@ -1,16 +1,13 @@
-vanillaMaterials.defineFactory("weapon", {
+var weaponComponent = Game.defineComponent({
+    name: "weapon",
+    components: {
+        item: {
+            notchId: this.notchId
+        }
+    },
     properties: {
-        name: null,
-        vanillaId: 300,
+        notchId: 1,
         durability: 0,
         damage: 0
-    },
-
-    methods: {}
-}, function(part) {
-    part.createTool("weapon", {
-        name: part.name,
-        vanillaId: part.vanillaId,
-        durability: part.durability
-    })
+    }
 });

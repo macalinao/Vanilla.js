@@ -1,28 +1,13 @@
-vanillaMaterials.defineFactory("tool", {
-    properties: {
-        name: null,
-        vanillaId: 300,
-        durability: 0,
-        strengthModifiers: []
+var toolComponent = Game.defineComponent({
+    name: "tool",
+    components: {
+        item: {
+            notchId: this.notchId
+        }
     },
 
-    methods: {
-        getStrengthModifier: function(part, block, modifier) {
-            if (part.props.strengthModifiers[block] == null) {
-                return 1.0;
-            }
-            return part.props.strengthModifiers[block];
-        },
-        setStrengthModifier: function(part, block, modifier) {
-            part.props.strengthModifiers[block] = modifier;
-        }
+    properties: {
+        notchId: 292,
+        durability: 0
     }
-
-}, function(part) {
-    part.createItem("tool", {
-        name: part.name,
-        vanillaId: part.vanillaId
-    }, function(item) {
-        //TODO add durability etc.
-    });
 });

@@ -1,18 +1,15 @@
-vanillaMaterials.defineFactory("weapon", {
-    properties: {
-        name: null,
-        vanillaId: 300,
-        durability: 0,
-        damage: 0,
-        rangedDamage: 0
+var rangedWeaponComponent = Game.defineComponent({
+    name: "weapon",
+    components: {
+        weapon: {
+            notchId: this.notchId
+        }
     },
-
-    methods: {}
-}, function(part) {
-    part.createWeapon("weapon", {
-        name: part.name,
-        vanillaId: part.vanillaId,
-        durability: part.durability,
-        damage: part.damage
-    })
+    properties: {
+        notchId: 1,
+//Technically we should only modify the weapon component
+//        durability: 0,
+//        damage: 0,
+//        rangedDamage: 0
+    }
 });

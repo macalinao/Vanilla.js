@@ -1,15 +1,14 @@
-vanillaMaterials.defineFactory("liquid", {
-    properties: {
-        name: null,
-        flowing: false
+var liquidComponent = Game.defineComponent({
+    name: "liquid",
+    components: {
+        block: {
+            mesh: "deform",
+            collision: "liquid",
+            notchId: this.notchId
+        }
     },
-
-    methods: {}
-}, function(part) {
-    part.createBlock("liquid", {
-        name: part.name,
-        placementObstacle: false
-    }, function(part) {
-        
-    });
+    properties: {
+        placementObstacle: false,
+        notchId: 1
+    }
 });

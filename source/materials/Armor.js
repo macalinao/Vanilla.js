@@ -1,10 +1,17 @@
-vanillaMaterials.defineFactory("Armor", {
+var armorComponent = Game.defineComponent({
+    name: "armor",
+    components: {
+        item: {
+            notchId: this.notchId
+        }
+    },
     properties: {
-        name: null,
-        vanillaId: 300,
+        notchId: 308,
         protection: 0
     },
-    methods: {}
-}, function(part) {
-    //We don't know
+    listeners: {
+        "player_damage": function(event) {
+            event.damage -= this.protection; //I know this is inaccurate
+        }
+    }
 });

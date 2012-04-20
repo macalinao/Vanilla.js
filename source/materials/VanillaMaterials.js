@@ -6,106 +6,106 @@ var vanillaMaterials = mm.defineMod("VanillaMaterials", {
 
     //Armor
     //Leather
-    mod.createArmor("leather_cap", {
+    mod.registerArmor("leather_cap", {
         name: "Leather Cap",
         vanillaId: 298,
         protection: 1
     }, function(part){});
-    mod.createArmor("leather_tunic", {
+    mod.registerArmor("leather_tunic", {
         name: "Leather Tunic",
         vanillaId: 299,
         protection: 3
     }, function(part){});
-    mod.createArmor("leather_pants", {
+    mod.registerArmor("leather_pants", {
         name: "Leather Pants",
         vanillaId: 300,
         protection: 2
     }, function(part){});
-    mod.createArmor("leather_boots", {
+    mod.registerArmor("leather_boots", {
         name: "Leather Boots",
         vanillaId: 301,
         protection: 1
     }, function(part){});
     //Chain
-    mod.createArmor("chain_helmet", {
+    mod.registerArmor("chain_helmet", {
         name: "Chain Helmet",
         vanillaId: 302,
         protection: 2
     }, function(part){});
-    mod.createArmor("chain_chestplate", {
+    mod.registerArmor("chain_chestplate", {
         name: "Chain Chestplate",
         vanillaId: 303,
         protection: 5
     }, function(part){});
-    mod.createArmor("chain_leggings", {
+    mod.registerArmor("chain_leggings", {
         name: "Chain Leggings",
         vanillaId: 304,
         protection: 4
     }, function(part){});
-    mod.createArmor("chain_boots", {
+    mod.registerArmor("chain_boots", {
         name: "Chain Boots",
         vanillaId: 305,
         protection: 1
     }, function(part){});
     //Iron
-    mod.createArmor("iron_helmet", {
+    mod.registerArmor("iron_helmet", {
         name: "Iron Helmet",
         vanillaId: 306,
         protection: 2
     }, function(part){});
-    mod.createArmor("iron_chestplate", {
+    mod.registerArmor("iron_chestplate", {
         name: "Iron Chestplate",
         vanillaId: 307,
         protection: 6
     }, function(part){});
-    mod.createArmor("iron_leggings", {
+    mod.registerArmor("iron_leggings", {
         name: "Iron Leggings",
         vanillaId: 308,
         protection: 5
     }, function(part){});
-    mod.createArmor("iron_boots", {
+    mod.registerArmor("iron_boots", {
         name: "Iron Boots",
         vanillaId: 309,
         protection: 2
     }, function(part){});
     //Diamond
-    mod.createArmor("diamond_helmet", {
+    mod.registerArmor("diamond_helmet", {
         name: "Diamond Helmet",
         vanillaId: 310,
         protection: 3
     }, function(part){});
-    mod.createArmor("diamond_chestplate", {
+    mod.registerArmor("diamond_chestplate", {
         name: "Diamond Chestplate",
         vanillaId: 311,
         protection: 8
     }, function(part){});
-    mod.createArmor("diamond_leggings", {
+    mod.registerArmor("diamond_leggings", {
         name: "Diamond Leggings",
         vanillaId: 312,
         protection: 6
     }, function(part){});
-    mod.createArmor("diamond_boots", {
+    mod.registerArmor("diamond_boots", {
         name: "Diamond Boots",
         vanillaId: 313,
         protection: 3
     }, function(part){});
     //Gold
-    mod.createArmor("gold_helmet", {
+    mod.registerArmor("gold_helmet", {
         name: "Gold Helmet",
         vanillaId: 314,
         protection: 2
     }, function(part){});
-    mod.createArmor("gold_chestplate", {
+    mod.registerArmor("gold_chestplate", {
         name: "Gold Chestplate",
         vanillaId: 315,
         protection: 5
     }, function(part){});
-    mod.createArmor("gold_leggings", {
+    mod.registerArmor("gold_leggings", {
         name: "Gold Leggings",
         vanillaId: 316,
         protection: 3
     }, function(part){});
-    mod.createArmor("gold_boots", {
+    mod.registerArmor("gold_boots", {
         name: "Gold Boots",
         vanillaId: 317,
         protection: 1
