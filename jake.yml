@@ -18,7 +18,7 @@ packages:
     files:
     - Vanilla
   vanilla-materials:
-    directory: material
+    directory: materials
     files:
     - VanillaMaterials
     - Armor
